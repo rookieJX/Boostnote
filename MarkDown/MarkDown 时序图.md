@@ -30,3 +30,11 @@ participant A
 Note right of A: By listing the participants\n you can change their order
 ```
 
+```mermaid
+graph TD
+A[Christmas] -->|Get money| B(Go shopping)
+B --> C{Let me think}
+C -->|One| D[Laptop]
+C -->|Two| E[iPhone]
+C -->|Three| F[Car]
+```
